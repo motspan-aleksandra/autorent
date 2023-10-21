@@ -27,7 +27,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-right: 50px;
 }
 
-.form__begin, .form__end {
+.form__begin,
+.form__end {
     border-radius: 5px;
     height: 30px;
     width: 170px;
@@ -71,7 +72,7 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    background-image: url("/img/mers.png");
+    background-image: url("img/mers.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -137,8 +138,7 @@ body {
     justify-content: space-between;
 }
 
-.form__begin {
-}
+.form__begin {}
 
 .form__end {}
 
