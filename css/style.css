@@ -21,6 +21,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-size: 20px;
   }
   */
+body {
+    margin: 0;
+}
 
 .container {
     padding-left: 50px;
@@ -93,7 +96,7 @@ body {
 }
 
 .leftside__list {
-    list-style: url("/img/Ok.png");
+    list-style: url("img/Ok.png");
 }
 
 .list__item {}
